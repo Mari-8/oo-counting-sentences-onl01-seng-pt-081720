@@ -20,5 +20,5 @@ class String
     seperate = elements.split(/[\s,?,!]/)
     seperate.delete_if(&:blank?)
    end
-   binding.pry
+   
 end
