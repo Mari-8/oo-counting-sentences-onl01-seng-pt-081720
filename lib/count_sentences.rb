@@ -20,7 +20,6 @@ class String
     seperate = elements.split(/[\.?!]/)
     seperate.reject! { |e| e.to_s.empty? }
     seperate.length
-    binding.pry
    end
    
 end
