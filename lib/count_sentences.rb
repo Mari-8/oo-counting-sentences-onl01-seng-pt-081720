@@ -20,6 +20,7 @@ class String
     seperate = elements.split(/[\s,?,!]/)
     seperate.compact!
     seperate.length
+    binding.pry
    end
    
 end
