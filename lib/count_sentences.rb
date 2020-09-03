@@ -17,7 +17,7 @@ class String
   def count_sentences
     elements = ""
     elements << self
-    seperate = elements.split(/[\.,?,!]/)
+    seperate = elements.split(/[\.?!]/)
    # seperate.reject! { |e| e.to_s.empty? }
     seperate.length
     binding.pry
