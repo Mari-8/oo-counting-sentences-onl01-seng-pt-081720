@@ -18,7 +18,7 @@ class String
     elements = ""
     elements << self
     seperate = elements.split(/[\s,?,!]/)
-    seperate.compact!
+    seperate.reject! { |e| e.to_s.empty? }
     seperate.length
     binding.pry
    end
