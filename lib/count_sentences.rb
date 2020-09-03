@@ -19,7 +19,6 @@ class String
     elements << self
     seperate = elements.split(/[\s,?,!]/)
     seperate.delete_if(&:blank?)
-    binding.pry
-    
-  end
+   end
+   binding.pry
 end
