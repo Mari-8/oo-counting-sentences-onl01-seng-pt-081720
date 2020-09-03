@@ -18,8 +18,8 @@ class String
     elements = ""
     elements << self
     seperate = elements.split(/[\s,?,!]/)
-    binding.pry
     seperate.delete_if(&:blank?)
+    seperate.length
    end
    
 end
